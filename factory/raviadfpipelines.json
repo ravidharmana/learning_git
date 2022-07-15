@@ -1,0 +1,9 @@
+{
+	"name": "raviadfpipelines",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "3fe7ad05-b69a-4df6-8dbd-4ca702509719",
+		"tenantId": "4d5a1421-5eac-4879-b6e9-d0e8bd8ecc16"
+	}
+}

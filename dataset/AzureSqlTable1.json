@@ -7,6 +7,21 @@
 		},
 		"annotations": [],
 		"type": "AzureSqlTable",
-		"schema": []
-	}
+		"schema": [
+			{
+				"name": "cid",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "cname",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "customer"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
 }
