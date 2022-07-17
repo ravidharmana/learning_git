@@ -9,12 +9,35 @@
 		"type": "AzureSqlTable",
 		"schema": [
 			{
-				"name": "cid",
+				"name": "empno",
 				"type": "int",
 				"precision": 10
 			},
 			{
-				"name": "cname",
+				"name": "empname",
+				"type": "varchar"
+			},
+			{
+				"name": "sal",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "HRA",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "deptno",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "deptname",
+				"type": "varchar"
+			},
+			{
+				"name": "loc",
 				"type": "varchar"
 			}
 		],
