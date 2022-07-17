@@ -1,0 +1,48 @@
+{
+	"name": "DelimitedTextfile2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "trowgenerator.csv",
+				"container": "input"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "eno",
+				"type": "String"
+			},
+			{
+				"name": "ename",
+				"type": "String"
+			},
+			{
+				"name": "sal",
+				"type": "String"
+			},
+			{
+				"name": "hra",
+				"type": "String"
+			},
+			{
+				"name": "join_date",
+				"type": "String"
+			},
+			{
+				"name": "loc",
+				"type": "String"
+			}
+		]
+	}
+}
