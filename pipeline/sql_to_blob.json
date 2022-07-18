@@ -13,7 +13,16 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": [],
+				"userProperties": [
+					{
+						"name": "Source",
+						"value": "dbo.students"
+					},
+					{
+						"name": "Destination",
+						"value": "outputfiles//output_data _2.csv"
+					}
+				],
 				"typeProperties": {
 					"source": {
 						"type": "AzureSqlSource",
