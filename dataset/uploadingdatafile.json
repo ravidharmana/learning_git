@@ -10,14 +10,17 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "student.csv",
-				"folderPath": "studentdata",
+				"fileName": "output_data.csv",
 				"fileSystem": "outputfiles"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
 			"quoteChar": "\""
 		},
-		"schema": []
+		"schema": [
+			{
+				"type": "String"
+			}
+		]
 	}
 }

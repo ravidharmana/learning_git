@@ -23,7 +23,15 @@
 					"sink": {
 						"type": "DelimitedTextSink",
 						"storeSettings": {
-							"type": "AzureBlobFSWriteSettings"
+							"type": "AzureBlobFSWriteSettings",
+							"metadata": [
+								{
+									"value": ""
+								},
+								{
+									"value": ""
+								}
+							]
 						},
 						"formatSettings": {
 							"type": "DelimitedTextWriteSettings",
