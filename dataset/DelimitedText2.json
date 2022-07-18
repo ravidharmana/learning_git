@@ -13,8 +13,9 @@
 				"fileName": "students.csv",
 				"container": "inputdata"
 			},
-			"columnDelimiter": ",",
+			"columnDelimiter": ";",
 			"escapeChar": "\\",
+			"firstRowAsHeader": true,
 			"quoteChar": "\""
 		},
 		"schema": [
