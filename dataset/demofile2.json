@@ -1,0 +1,23 @@
+{
+	"name": "demofile2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStoragegen2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "output_data _2.csv",
+				"fileSystem": "outputfiles"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
