@@ -13,9 +13,9 @@
 				"fileName": "output_data _2.csv",
 				"fileSystem": "outputfiles"
 			},
-			"columnDelimiter": ",",
+			"columnDelimiter": ";",
 			"escapeChar": "\\",
-			"firstRowAsHeader": false,
+			"firstRowAsHeader": true,
 			"quoteChar": "\""
 		},
 		"schema": []
